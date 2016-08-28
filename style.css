@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  text-align: center;
+  color:steelblue;
+}
+
+.flex-container{
+  width: 600px;
+  height: 300px;
+  background: lightblue;
+  margin: auto;
+  display:flex;
+  flex-direction: column;
+
+
+}
+
+.flex-item{
+  background: tomato;
+}
+
+.flex-item:nth-child(odd){
+  background: teal;
+}
+
+
+footer{
+  padding: 3em;
+  text-align: center;
+}
