@@ -1,0 +1,99 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1{
+  text-align: center;
+  color: steelblue;
+}
+
+.dado{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+[class^="face-"]{
+  background: #333;
+  width: 120px;
+  height: 120px;
+  padding: 10px;
+  display: flex;
+  margin: 1em;
+}
+
+.face-1{
+  justify-content: center;
+  align-items: center;
+}
+
+.face-2{
+  justify-content: space-between;
+}
+
+.face-2 .ponto:nth-child(2){
+  align-self: flex-end;
+}
+
+.face-3{
+  justify-content: space-between;
+}
+
+.face-3 .ponto:nth-child(2){
+  align-self: center;
+}
+
+.face-3 .ponto:nth-child(3){
+  align-self: flex-end;
+}
+
+.face-4 {
+  justify-content: space-between;
+}
+
+.face-4 .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.face-5{
+  display: flex;
+  justify-content: space-between;
+}
+
+.face-5 .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.face-5 .meio{
+  align-self: center;
+}
+
+.face-6{
+  display: flex;
+  justify-content: space-between;
+}
+
+.face-6 .column{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ponto{
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #eee;
+}
+
+
+footer{
+  padding-top: 3em;
+  text-align: center;
+}

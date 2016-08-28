@@ -14,17 +14,24 @@ h1{
   background: lightblue;
   margin: auto;
   display:flex;
-  flex-direction: column;
-
-
+  /*flex-direction: column;*/
+  justify-content: space-around;
+  align-items: baseline;
 }
 
 .flex-item{
   background: tomato;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
 }
 
 .flex-item:nth-child(odd){
   background: teal;
+  font-size: 3em;
 }
 
 
