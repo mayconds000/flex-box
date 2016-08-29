@@ -1,0 +1,37 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #f0f0f0;
+}
+
+h1{
+  text-align: center;
+  color: steelblue;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  background: lightblue;
+  margin: auto;
+  display: flex;
+}
+
+.item{
+  background: teal;
+  flex-basis: 15%;
+  flex-grow: 1;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item:nth-child(even){
+  background: steelblue;
+}
+
+.item:nth-child(2){
+  flex-grow: 2;
+}
